@@ -1,0 +1,37 @@
+#
+#  Andrew Kremmidas 
+#  Pizza On Demand Application
+#  
+#  Date: 4/25/22
+#
+#  Description: The Pizza on Demand Application will allow a user to enter an order from their phone  
+#
+# PIZZA ON-DEMAND will provide he user with a nice automated way to select and order a Pizza of their own choosing and will also allow the user to specify their cell number and address for notification and delivery. 
+#	PIZZA ON-DEMAND will perform the following tasks: 
+# Step 1: Enter the User Information, Name, Address and Cell Number
+# Step 2: Allows the User to Select the Size of the pizza they desire
+#	Step 3: Allows the User to Select the Toppings on their Pizza 
+#	Step 4: Allows the User to Select the type of Crust they like on their Pizza
+#	Step 5: Allows the User to Select the cooking style of the Pizza. 
+#	Step 6: Finally, after the Pizza Selection is entered it will provide the user with a nice message indicating the calculated delivery time of their Pizza and a confirmation number should they want to call on their Order. 
+#
+# Variables for Pizza on Demand
+#
+# user_tel_num - Type Integer this represents the users number which we identify the user
+# pizza_1 - Type String this represents the users first pizza order. A maximum of 3 pizzas may be ordered.
+# pizza_2 - Type String this represents the users first pizza order. A maximum of 3 pizzas may be ordered. 
+# pizza_3 - Type String this represents the users first pizza order. A maximum of 3 pizzas may be ordered. 
+#
+# input_pizza_number - Type Integer, this represents the number of pizzas that will be ordered from 1 to 3 maximum.
+# input_pizza_size - Type String, this represents the three types of pizza sizes, S for small, M for medium and L for Large.
+# input_meat - Type String, this represents the 2 type of meats that can be placed on the pizza which are S - sausage, P - pepperoni
+# input_toppings - Type String, this represents 4 types of toppings that can be placed on the pizza, G - green pepper, O - onions, S - spinach, M - mushrooms.
+# input_crust - Type String, this represents the type of crust, R - Regular and S - is a stuffed cheese crust.
+#
+# Sample String that would be entered: /1/M/S/GOM/R 
+# This above string represents what is input by the user on their phone to order one pizza /1
+# size medium /M
+# with sausage /S
+# with Green Peppers, Onions and Mushrooms /GOM
+# finally the last option is the crust type /R 
+#
